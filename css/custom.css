@@ -349,3 +349,74 @@ input.gn-search:focus {
 .top-clearfix{
 	height: 75px;
 }
+
+/* Users */
+.portlet.box.users-table {
+border: 1px solid #008753;
+border-top: 0;
+}
+
+.portlet.box.users-table > .portlet-title {
+background-color: #008753;
+}
+
+.portlet.box > .portlet-title {
+border-bottom: 0;
+padding: 0 10px;
+margin-bottom: 0;
+color: #FFF;
+}
+
+.portlet > .portlet-title {
+border-bottom: 1px solid #EEE;
+padding: 0;
+margin-bottom: 10px;
+min-height: 41px;
+}
+
+.portlet.box.users-table > .portlet-title > .caption {
+color: #fafafa;
+}
+
+.portlet.box > .portlet-title > .caption {
+padding: 11px 0 9px 0;
+}
+
+.purple.btn {
+color: #FFF;
+background-color: #8E44AD;
+border-color: "";
+}
+
+.label {
+text-shadow: none !important;
+font-size: 13px;
+font-weight: 300;
+padding: 3px 6px 3px 6px;
+color: #fafafa;
+font-family: "Open Sans", sans-serif;
+}
+
+span,a, button{
+-webkit-border-radius: 0 !important;
+-moz-border-radius: 0 !important;
+border-radius: 0 !important;
+}
+
+.portlet > .portlet-title > .caption > i {
+float: left;
+margin-top: 4px;
+display: inline-block;
+font-size: 13px;
+margin-right: 5px;
+}
+
+.portlet > .portlet-title > .caption {
+float: left;
+display: inline-block;
+font-size: 18px;
+line-height: 18px;
+font-weight: 300;
+padding: 10px 0;
+font-family: "Open Sans", sans-serif;
+}
