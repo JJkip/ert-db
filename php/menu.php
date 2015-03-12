@@ -37,7 +37,7 @@
 							<a class="" href="users.php">Users</a>
 						</li>
 						<li>
-							<a class="" href="javascript:;">Polling Stations</a>
+							<a class="" href="polling-stations.php">Polling Stations</a>
 						</li>
 						<li>
 							<a class="" href="javascript:;">Candidates</a>

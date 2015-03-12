@@ -4,7 +4,7 @@
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 						<div class="new-user">
 							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#userModal" data-whatever="@mdo">
-								<i class="fa fa-plus"></i>Add User
+								<i class="fa fa-plus"></i>Add Polling Station
 							</button>
 						</div>
 						
@@ -14,7 +14,7 @@
 						    <div class="modal-content">
 						      <div class="modal-header">
 						        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						        <h4 class="modal-title" id="userModalLabel">Adding New User</h4>
+						        <h4 class="modal-title" id="userModalLabel">Adding Polling Station</h4>
 						      </div>
 						      <div class="modal-body">
 						        <form>
@@ -39,6 +39,7 @@
 						    </div>
 						  </div>
 						</div>
+						<!-- End Modal -->
 
 					</div>
 					
@@ -47,7 +48,7 @@
 						<div class="portlet box users-table">
 							<div class="portlet-title">
 								<div class="caption">
-									<i class="fa fa-user"></i>Users
+									<i class="fa fa-bitbucket"></i>Polling Stations
 								</div>
 							</div>
 							<div class="portlet-body">
@@ -58,11 +59,11 @@
 										 #
 									</th>
 									<th>
-										 Name
+										 Unique Ward Code
 									</th>
-									<th>
+									<!--<th>
 										 Polling Station
-									</th>
+									</th>-->
 									<th class="hidden-480">
 										 Status
 									</th>
@@ -77,11 +78,11 @@
 										 1
 									</td>
 									<td>
-										 Emeka Oluu
+										 AB101001
 									</td>
-									<td>
+									<!--<td>
 										 ABIA POLY - ABIA POLY I
-									</td>
+									</td>-->
 									<td>
 										<span class="label label-success">
 										Fully Reported </span>
@@ -99,11 +100,11 @@
 										 2
 									</td>
 									<td>
-										 Ike Mohammed
+										 BO0510011
 									</td>
-									<td>
+									<!--<td>
 										 EZIAMA HIGH SCHOOL - EZIAMA HIGH SCHOOL I
-									</td>
+									</td>-->
 									<td>
 										<span class="label label-warning">
 										Partially Reported </span>
@@ -121,11 +122,11 @@
 										 3
 									</td>
 									<td>
-										 Ali Allen
+										 IM1202012
 									</td>
-									<td>
+									<!--<td>
 										 INDEPENDENCE ROAD- I.D.H I
-									</td>
+									</td>-->
 									<td>
 										<span class="label label-success">
 										Fully Reported </span>
@@ -143,11 +144,11 @@
 										 4
 									</td>
 									<td>
-										 Samuel Ika
+										 DI2302111
 									</td>
-									<td>
+									<!--<td>
 										 G.B.O CAR PARK - CAR PARK I
-									</td>
+									</td>-->
 									<td>
 										<span class="label label-danger">
 										Not Reported </span>
