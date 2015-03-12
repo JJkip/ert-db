@@ -40,7 +40,7 @@
 							<a class="" href="polling-stations.php">Polling Stations</a>
 						</li>
 						<li>
-							<a class="" href="javascript:;">Candidates</a>
+							<a class="" href="candidates.php">Candidates</a>
 						</li>
 						<li>
 							<a class="" href="javascript:;">Issues</a>
