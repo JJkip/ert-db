@@ -3,12 +3,9 @@
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 			<div class="add-polling-station">
-			<button  type="button" class="btn btn-success pull-right" data-toggle="modal" data-target="#userModal" data-whatever="@mdo">
-								<i class="fa fa-plus"></i>Add Polling Station
-							</button>
-			<p>
-				&nbsp
-			</p>
+			<button  type="button" class="btn btn-success pull-right" data-toggle="modal" data-target="#pollingStationModal" data-whatever="@mdo">
+				<i class="fa fa-plus"></i>Add Polling Station
+				</button>
 			</div>
 		</div>
 	</div>
@@ -19,7 +16,7 @@
 				<div class="portlet-title">
 					<div class="caption">
 						<!--<i class="fa fa-user"></i>-->
-						Summary
+						Polling Stations
 					</div>
 					<div class="tools">
 						<a href="javascript:;" class="collapse"> </a>
@@ -65,14 +62,14 @@
 										Fully Reported </span>
 										 </td>
 								<td class="text-center">
-									<a  href="#" class="btn btn-xs btn-success" data-placement="top" title="Edit"><i class="fa fa-pencil"></i></a> &nbsp; <a href="#" class="btn  btn-warning" data-toggle="modal" data-target="#sendReseult" data-placement="top" title="Send"><i class="fa fa-send"></i></a></td>
+									<a  href="polling-stations-edit.php" class="btn btn-xs btn-success" data-placement="top" title="Edit"><i class="fa fa-pencil"></i></a> &nbsp; <a href="#" class="btn  btn-warning" data-toggle="modal" data-target="#sendReseult" data-placement="top" title="Send"><i class="fa fa-send"></i></a></td>
 							</tr>
 						</tbody>
 					</table>
 				</div>
 			</div>
 			<!-- Add polling station Modal begins here -->
-						<div class="modal fade" id="userModal" tabindex="-1" role="dialog" aria-labelledby="userModalLabel" aria-hidden="true">
+						<div class="modal fade" id="pollingStationModal" tabindex="-1" role="dialog" aria-labelledby="userModalLabel" aria-hidden="true">
 						  <div class="modal-dialog">
 						    <div class="modal-content">
 						      <div class="modal-header">
@@ -82,11 +79,43 @@
 						      <div class="modal-body">
 						        <form>
 						          <div class="form-group">
-						            <label for="recipient-name" class="control-label">Name:</label>
+						            <label for="recipient-name" class="control-label">State Name:</label>
 						            <input type="text" class="form-control" id="recipient-name">
 						          </div>
 						          <div class="form-group">
-						            <label for="recipient-name" class="control-label">Polling Station:</label>
+						            <label for="recipient-name" class="control-label">State Code:</label>
+						            <input type="text" class="form-control" id="recipient-name">
+						          </div>
+						          <div class="form-group">
+						            <label for="recipient-name" class="control-label">LGA Name:</label>
+						            <input type="text" class="form-control" id="recipient-name">
+						          </div>
+						          <div class="form-group">
+						            <label for="recipient-name" class="control-label">LGA Code:</label>
+						            <input type="text" class="form-control" id="recipient-name">
+						          </div>
+						          <div class="form-group">
+						            <label for="recipient-name" class="control-label">Ward Name:</label>
+						            <input type="text" class="form-control" id="recipient-name">
+						          </div>
+						          <div class="form-group">
+						            <label for="recipient-name" class="control-label">Ward Code:</label>
+						            <input type="text" class="form-control" id="recipient-name">
+						          </div>
+						          <div class="form-group">
+						            <label for="recipient-name" class="control-label">Pollling Station Location/Name:</label>
+						            <input type="text" class="form-control" id="recipient-name">
+						          </div>
+						          <div class="form-group">
+						            <label for="recipient-name" class="control-label">Polling Staiton Code:</label>
+						            <input type="text" class="form-control" id="recipient-name">
+						          </div>
+						          <div class="form-group">
+						            <label for="recipient-name" class="control-label">Unique Ward Code:</label>
+						            <input type="text" class="form-control" id="recipient-name">
+						          </div>
+						          <div class="form-group">
+						            <label for="recipient-name" class="control-label">Total Votes Sent:</label>
 						            <input type="text" class="form-control" id="recipient-name">
 						          </div>
 						          <div class="form-group">

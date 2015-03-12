@@ -3,7 +3,7 @@
 					
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 						<div class="new-candidate">
-							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#candidateModal" data-whatever="@mdo">
+							<button type="button" class="btn btn-success" data-toggle="modal" data-target="#candidateModal" data-whatever="@mdo">
 								<i class="fa fa-plus"></i>Add Candidate
 							</button>
 						</div>
@@ -72,7 +72,7 @@
 									</td>
 									
 									<td class="hidden-480">
-										 <a href="candidates-edit.php" class="btn default btn-xs purple" title="Edit">
+										 <a href="candidates-edit.php" class="btn btn-success" title="Edit">
 											<i class="fa fa-pencil"></i> 
 										</a>
 									</td>
@@ -102,7 +102,7 @@
 									</td>
 									
 									<td class="hidden-480">
-										 <a href="candidates-edit.php" class="btn default btn-xs purple" title="Edit">
+										 <a href="candidates-edit.php" class="btn btn-success" title="Edit">
 											<i class="fa fa-pencil"></i> 
 										</a>
 									</td>
@@ -132,7 +132,7 @@
 									</td>
 									
 									<td class="hidden-480">
-										 <a href="candidates-edit.php" class="btn default btn-xs purple" title="Edit">
+										 <a href="candidates-edit.php" class="btn btn-success" title="Edit">
 											<i class="fa fa-pencil"></i> 
 										</a>
 									</td>
@@ -162,7 +162,7 @@
 									</td>
 									
 									<td class="hidden-480">
-										 <a href="candidates-edit.php" class="btn default btn-xs purple" title="Edit">
+										 <a href="candidates-edit.php" class="btn btn-success" title="Edit">
 											<i class="fa fa-pencil"></i> 
 										</a>
 									</td>
@@ -192,7 +192,7 @@
 									</td>
 									
 									<td class="hidden-480">
-										 <a href="candidates-edit.php" class="btn default btn-xs purple" title="Edit">
+										 <a href="candidates-edit.php" class="btn btn-success" title="Edit">
 											<i class="fa fa-pencil"></i> 
 										</a>
 									</td>
@@ -222,7 +222,7 @@
 									</td>
 									
 									<td class="hidden-480">
-										 <a href="candidates-edit.php" class="btn default btn-xs purple" title="Edit">
+										 <a href="candidates-edit.php" class="btn btn-success" title="Edit">
 											<i class="fa fa-pencil"></i> 
 										</a>
 									</td>
@@ -252,7 +252,7 @@
 									</td>
 									
 									<td class="hidden-480">
-										 <a href="candidates-edit.php" class="btn default btn-xs purple" title="Edit">
+										 <a href="candidates-edit.php" class="btn btn-success" title="Edit">
 											<i class="fa fa-pencil"></i> 
 										</a>
 									</td>
@@ -282,7 +282,7 @@
 									</td>
 									
 									<td class="hidden-480">
-										 <a href="candidates-edit.php" class="btn default btn-xs purple" title="Edit">
+										 <a href="candidates-edit.php" class="btn btn-success" title="Edit">
 											<i class="fa fa-pencil"></i> 
 										</a>
 									</td>
@@ -312,7 +312,7 @@
 									</td>
 									
 									<td class="hidden-480">
-										 <a href="candidates-edit.php" class="btn default btn-xs purple" title="Edit">
+										 <a href="candidates-edit.php" class="btn btn-success" title="Edit">
 											<i class="fa fa-pencil"></i> 
 										</a>
 									</td>
@@ -342,7 +342,7 @@
 									</td>
 									
 									<td class="hidden-480">
-										<a href="candidates-edit.php" class="btn default btn-xs purple" title="Edit">
+										<a href="candidates-edit.php" class="btn btn-success" title="Edit">
 											<i class="fa fa-pencil"></i> 
 										</a>
 									</td>
@@ -372,7 +372,7 @@
 									</td>
 									
 									<td class="hidden-480">
-										<a href="candidates-edit.php" class="btn default btn-xs purple" title="Edit">
+										<a href="candidates-edit.php" class="btn btn-success" title="Edit">
 											<i class="fa fa-pencil"></i> 
 										</a>
 									</td>
@@ -402,7 +402,7 @@
 									</td>
 									
 									<td class="hidden-480">
-										<a href="candidates-edit.php" class="btn default btn-xs purple" title="Edit">
+										<a href="candidates-edit.php" class="btn btn-success" title="Edit">
 											<i class="fa fa-pencil"></i> 
 										</a>
 									</td>

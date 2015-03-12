@@ -421,7 +421,7 @@ font-family: "Open Sans", sans-serif;
 }
 
 
-.new-polling-station,.new-user, .new-candidate {
+.add-polling-station,.new-user, .new-candidate {
 float: right;
 display: inline-block;
 padding: 12px 0 8px 0;
