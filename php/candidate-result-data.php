@@ -1,15 +1,17 @@
 <div class="container">
-	<!--<div class="row">
+	<div class="row">
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 			<div class="add-polling-station">
-			<a class="btn btn-success pull-right"><i class="fa fa-plus"></i> Add Polling Station</a>
+				<button  type="button" class="btn btn-success pull-right" data-toggle="modal" data-target="#addPollingStationResult" data-whatever="@mdo">
+				<i class="fa fa-plus"></i>Add Polling Station Result
+				</button>
 			<p>
 				&nbsp
 			</p>
 			</div>
 		</div>
-	</div>-->
+	</div>
 	<div class="row">
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -19,12 +21,6 @@
 					<div class="caption">
 						<!--<i class="fa fa-user"></i>-->
 						Candidate Result
-					</div>
-					<div class="tools">
-						<a href="javascript:;" class="collapse"> </a>
-						<a href="#portlet-config" data-toggle="modal" class="config"> </a>
-						<a href="javascript:;" class="reload"> </a>
-						<a href="javascript:;" class="remove"> </a>
 					</div>
 				</div>
 				<div class="portlet-body table-responsive candidate-result">
@@ -73,8 +69,8 @@
 										Partially Reported </span></td>
 								<td class="text-center">
 									<ul class="list-unstyled list-inline">
-										<li><a  href="#" class="btn btn-xs btn-success" data-placement="top" title="Edit"><i class="fa fa-pencil"></i></a></li>
-										<li><a href="#" class="btn btn-warning" data-toggle="modal" data-target="#	" data-placement="top" title="Send"><i class="fa fa-send"></i></a></li>
+										<li><a  href="candidate-result-edit.php" class="btn btn-xs btn-success" data-placement="top" title="Edit"><i class="fa fa-pencil"></i></a></li>
+										<li><a href="#" class="btn btn-warning" data-toggle="modal" data-target="#sendResult" data-whatever="@mdo" title="Send"><i class="fa fa-send"></i></a></li>
 									</ul>
                                 </td>
 							</tr>
@@ -100,8 +96,8 @@
 								</td>
 								<td class="text-center">
 									<ul class="list-unstyled list-inline">
-										<li><a  href="#" class="btn btn-xs btn-success" data-placement="top" title="Edit"><i class="fa fa-pencil"></i></a></li>
-										<li><a href="#" class="btn btn-warning" data-toggle="modal" data-target="#sendReseult" data-placement="top" title="Send"><i class="fa fa-send"></i></a></li>
+										<li><a  href="candidate-result-edit.php" class="btn btn-xs btn-success" data-placement="top" title="Edit"><i class="fa fa-pencil"></i></a></li>
+										<li><a href="#" class="btn btn-warning" data-toggle="modal" data-target="#sendResult" data-whatever="@mdo" title="Send"><i class="fa fa-send"></i></a></li>
 									</ul>
                                 </td>
 								</tr>
@@ -127,21 +123,28 @@
 								</td>
 								<td class="text-center">
 									<ul class="list-unstyled list-inline">
-										<li><a  href="#" class="btn btn-xs btn-success" data-placement="top" title="Edit"><i class="fa fa-pencil"></i></a></li>
-										<li><a href="#" class="btn btn-warning" data-toggle="modal" data-target="#sendReseult" data-placement="top" title="Send"><i class="fa fa-send"></i></a></li>
+										<li><a  href="candidate-result-edit.php" class="btn btn-xs btn-success" data-placement="top" title="Edit"><i class="fa fa-pencil"></i></a></li>
+										<li><a href="#" class="btn btn-warning" data-toggle="modal" data-target="#sendResult" data-whatever="@mdo" title="Send"><i class="fa fa-send"></i></a></li>
 									</ul>
                                 </td>
 								</tr>
 						</tbody>
 					</table>
+					
 				</div>
-				<!-- Send Result Modal begins here -->
+				
+			</div>
+			<!-- END BORDERED TABLE PORTLET-->
+		</div>
+		
+		<!-- Send Result Modal begins here -->
 						<div class="modal fade" id="sendResult" tabindex="-1" role="dialog" aria-labelledby="userModalLabel" aria-hidden="true">
 						  <div class="modal-dialog">
 						    <div class="modal-content">
 						      <div class="modal-header">
 						        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						        <h4 class="modal-title" id="userModalLabel">Send Result ?</h4>
+						        <h4 class="modal-title" id="userModalLabel">Send Result ?</h4>
+
 						      </div>
 						      <div class="modal-body">
 						        <p> Send result for <b>AB101001</b> ward</p>
@@ -154,8 +157,96 @@
 						  </div>
 						</div>
 						<!-- Send Result Modal begins here -->
-			</div>
-			<!-- END BORDERED TABLE PORTLET-->
-		</div>
+						<!-- Add Polling Station Result Modal begins here -->
+						<div class="modal fade" id="addPollingStationResult" tabindex="-1" role="dialog" aria-labelledby="addPollingStationResult" aria-hidden="true">
+						  <div class="modal-dialog add-polling-result-modal">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						        <h4 class="modal-title" id="userModalLabel">Add polling station result</h4>
+
+						      </div>
+						      <div class="modal-body">
+						        <form action="candidate-result.php" class="edit-candidate-form">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="form-group">
+								<label for="candidate-1" class="control-label">JCI SEN. TUNDE ANIFOWOSE-KELANI</label>
+								<input type="text" class="form-control" id="recipient-name">
+							</div>
+							<div class="form-group">
+								<label for="candidate-2" class="control-label">RAFIU SALAU</label>
+								<input type="text" class="form-control" id="candidate-2">
+							</div>
+							<div class="form-group">
+								<label for="candidate-3" class="control-label">ALH. GANIYU O. GALADIMA</label>
+								<input type="text" class="form-control" id="candidate-3">
+							</div>
+							<div class="form-group">
+								<label for="candidate-4" class="control-label">DR. MANI IBRAHIM AHMAD</label>
+								<input type="text" class="form-control" id="candidate-4">
+							</div>
+							<div class="form-group">
+								<label for="candidate-5" class="control-label">AYENI MUSA ADEBAYO</label>
+								<input type="text" class="form-control" id="candidate-5">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<label for="candidate-6" class="control-label">MUHAMMADU BUHARI</label>
+								<input type="text" class="form-control" id="candidate-6">
+							</div>
+							<div class="form-group">
+								<label for="candidate-7" class="control-label">CHIEF SAM EKE</label>
+								<input type="text" class="form-control" id="candidate-7">
+							</div>
+							<div class="form-group">
+								<label for="candidate-8" class="control-label">HIGH CHIEF AMBROSE N. ALBERT OWURU</label>
+								<input type="text" class="form-control" id="candidate-8">
+							</div>
+
+							<div class="form-group">
+								<label for="candidate-9" class="control-label">COMFORT OLUREMI SONAIYA</label>
+								<input type="text" class="form-control" id="candidate-9">
+							</div>
+							<div class="form-group">
+								<label for="candidate-10" class="control-label">CHIEF MARTIN ONOVO</label>
+								<input type="text" class="form-control" id="candidate-10">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<label for="candidate-11" class="control-label">GOODLUCK EBELE JONATHAN</label>
+								<input type="text" class="form-control" id="candidate-11">
+							</div>
+							<div class="form-group">
+								<label for="candidate-12" class="control-label">ALLAGOA KELVIN CHINEDU</label>
+								<input type="text" class="form-control" id="candidate-12">
+							</div>
+							<div class="form-group">
+								<label for="candidate-13" class="control-label">GODSON MGBODILE OHAENYEM OKOYE</label>
+								<input type="text" class="form-control" id="candidate-13">
+							</div>
+							<div class="form-group">
+								<label for="candidate-14" class="control-label">CHIEF (DR.) CHEKWAS OKORIE</label>
+								<input type="text" class="form-control" id="candidate-14">
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">
+							Cancel
+						</button>
+						<button type="submit" class="btn btn-primary">
+							Add
+						</button>
+					</div>
+				</form>
+						      </div>
+						      
+						    </div>
+						  </div>
+						</div>
+						<!-- Add Polling Station Result Modal begins here -->
 	</div>
 </div>

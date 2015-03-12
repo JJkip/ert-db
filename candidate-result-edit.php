@@ -19,7 +19,7 @@
 
 	<div class="top-clearfix"></div>
 	
-	<?php include "php/login.php"; ?>
+	<?php include "php/candidate-result-data-edit.php"; ?>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
