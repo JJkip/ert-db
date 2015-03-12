@@ -74,7 +74,7 @@
 								<td class="text-center">
 									<ul class="list-unstyled list-inline">
 										<li><a  href="#" class="btn btn-xs btn-success" data-placement="top" title="Edit"><i class="fa fa-pencil"></i></a></li>
-										<li><a href="#" class="btn btn-warning" data-toggle="modal" data-target="#sendReseult" data-placement="top" title="Send"><i class="fa fa-send"></i></a></li>
+										<li><a href="#" class="btn btn-warning" data-toggle="modal" data-target="#	" data-placement="top" title="Send"><i class="fa fa-send"></i></a></li>
 									</ul>
                                 </td>
 							</tr>
@@ -135,6 +135,25 @@
 						</tbody>
 					</table>
 				</div>
+				<!-- Send Result Modal begins here -->
+						<div class="modal fade" id="sendResult" tabindex="-1" role="dialog" aria-labelledby="userModalLabel" aria-hidden="true">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						        <h4 class="modal-title" id="userModalLabel">Send Result ?</h4>
+						      </div>
+						      <div class="modal-body">
+						        <p> Send result for <b>AB101001</b> ward</p>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+						        <button type="button" class="btn btn-success">Send</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+						<!-- Send Result Modal begins here -->
 			</div>
 			<!-- END BORDERED TABLE PORTLET-->
 		</div>
