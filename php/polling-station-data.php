@@ -1,14 +1,77 @@
 <div class="container">
-		<div class="row">
-					
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<div class="new-user">
-							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#userModal" data-whatever="@mdo">
+	<div class="row">
+
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div class="add-polling-station">
+			<button  type="button" class="btn btn-success pull-right" data-toggle="modal" data-target="#userModal" data-whatever="@mdo">
 								<i class="fa fa-plus"></i>Add Polling Station
 							</button>
-						</div>
-						
-						<!-- Modal begins here -->
+			<p>
+				&nbsp
+			</p>
+			</div>
+		</div>
+	</div>
+		<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<!-- BEGIN BORDERED TABLE PORTLET-->
+			<div class="portlet box users-table">
+				<div class="portlet-title">
+					<div class="caption">
+						<!--<i class="fa fa-user"></i>-->
+						Summary
+					</div>
+					<div class="tools">
+						<a href="javascript:;" class="collapse"> </a>
+						<a href="#portlet-config" data-toggle="modal" class="config"> </a>
+						<a href="javascript:;" class="reload"> </a>
+						<a href="javascript:;" class="remove"> </a>
+					</div>
+				</div>
+				<div class="portlet-body table-responsive">
+					<table class="table table-bordered table-hover ">
+						<thead>
+							<tr>
+								<th> # </th>
+								<th> State Name </th>
+								<th> State Code </th>
+								<th> LGA Name </th>
+								<th> LGA Code </th>
+								<th> Ward Name </th>
+								<th> Ward Code </th>
+								<th> Polling Station Location/Name </th>
+								<th> Polling Station Code </th>
+								<th> Unique Ward Code </th>
+								<th> Total Votes Sent</th>
+								<th> Status </th>
+								<th data-filterable="false" class="text-center hidden-xs hidden-sm sorting_disabled" role="columnheader" rowspan="1" colspan="1" aria-label="ACTIONS" style="width: 112px;">ACTIONS</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td> 1 </td>
+								<td> ABIA </td>
+								<td> AB </td>
+								<td> ABA NORTH </td>
+								<td> 01 </td>
+								<td> EZIAMA </td>
+								<td> 01 </td>
+								<td> RAILWAY QUARTERS - RAILWAY QUARTERS I </td>
+								<td> 01 </td>
+								<td> AB101001 </td>
+								<td> 1,200,000</td>
+								<td> 
+									<span class="label label-success">
+										Fully Reported </span>
+										 </td>
+								<td class="text-center">
+									<a  href="#" class="btn btn-xs btn-success" data-placement="top" title="Edit"><i class="fa fa-pencil"></i></a> &nbsp; <a href="#" class="btn  btn-warning" data-toggle="modal" data-target="#sendReseult" data-placement="top" title="Send"><i class="fa fa-send"></i></a></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<!-- Add polling station Modal begins here -->
 						<div class="modal fade" id="userModal" tabindex="-1" role="dialog" aria-labelledby="userModalLabel" aria-hidden="true">
 						  <div class="modal-dialog">
 						    <div class="modal-content">
@@ -40,132 +103,11 @@
 						  </div>
 						</div>
 						<!-- End Modal -->
-
-					</div>
+						
+			<!-- END BORDERED TABLE PORTLET-->
+		</div>
 					
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<!-- BEGIN BORDERED TABLE PORTLET-->
-						<div class="portlet box users-table">
-							<div class="portlet-title">
-								<div class="caption">
-									<i class="fa fa-bitbucket"></i>Polling Stations
-								</div>
-							</div>
-							<div class="portlet-body">
-								<table class="table table-bordered table-hover">
-								<thead>
-								<tr>
-									<th>
-										 #
-									</th>
-									<th>
-										 Unique Ward Code
-									</th>
-									<!--<th>
-										 Polling Station
-									</th>-->
-									<th class="hidden-480">
-										 Status
-									</th>
-									<th>
-										 Action
-									</th>
-								</tr>
-								</thead>
-								<tbody>
-								<tr>
-									<td>
-										 1
-									</td>
-									<td>
-										 AB101001
-									</td>
-									<!--<td>
-										 ABIA POLY - ABIA POLY I
-									</td>-->
-									<td>
-										<span class="label label-success">
-										Fully Reported </span>
-									</td>
-									<td class="hidden-480">
-										 <a href="#" class="btn default btn-xs purple">
-											<i class="fa fa-edit"></i> 
-											Edit 
-										</a>
-									</td>
-									
-								</tr>
-								<tr>
-									<td>
-										 2
-									</td>
-									<td>
-										 BO0510011
-									</td>
-									<!--<td>
-										 EZIAMA HIGH SCHOOL - EZIAMA HIGH SCHOOL I
-									</td>-->
-									<td>
-										<span class="label label-warning">
-										Partially Reported </span>
-									</td>
-									<td class="hidden-480">
-										 <a href="#" class="btn default btn-xs purple">
-											<i class="fa fa-edit"></i> 
-											Edit 
-										</a>
-									</td>
-									
-								</tr>
-								<tr>
-									<td>
-										 3
-									</td>
-									<td>
-										 IM1202012
-									</td>
-									<!--<td>
-										 INDEPENDENCE ROAD- I.D.H I
-									</td>-->
-									<td>
-										<span class="label label-success">
-										Fully Reported </span>
-									</td>
-									<td class="hidden-480">
-										 <a href="#" class="btn default btn-xs purple">
-											<i class="fa fa-edit"></i> 
-											Edit 
-										</a>
-									</td>
-									
-								</tr>
-								<tr>
-									<td>
-										 4
-									</td>
-									<td>
-										 DI2302111
-									</td>
-									<!--<td>
-										 G.B.O CAR PARK - CAR PARK I
-									</td>-->
-									<td>
-										<span class="label label-danger">
-										Not Reported </span>
-									</td>
-									<td class="hidden-480">
-										 <a href="#" class="btn default btn-xs purple">
-											<i class="fa fa-edit"></i> 
-											Edit 
-										</a>
-									</td>
-									
-								</tr>
-								</tbody>
-								</table>
-							</div>
-						</div>
-						<!-- END BORDERED TABLE PORTLET-->
-					</div>
+					
+					
 				</div>
 	</div>

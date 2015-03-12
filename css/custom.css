@@ -420,7 +420,8 @@ padding: 10px 0;
 font-family: "Open Sans", sans-serif;
 }
 
-.new-user, .new-candidate {
+
+.new-polling-station,.new-user, .new-candidate {
 float: right;
 display: inline-block;
 padding: 12px 0 8px 0;
@@ -527,4 +528,15 @@ line-height: 35px;
   font-size: 16px;
   letter-spacing: 0px;
   font-weight: 300;
+}
+.add-polling-station{
+	padding-bottom: 10px;
+}
+.dropdown-header {
+  display: block;
+  padding: 3px 20px;
+  font-size: 12px;
+  line-height: 1.42857143;
+  color: #008753;
+  white-space: nowrap;
 }
