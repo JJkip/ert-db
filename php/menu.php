@@ -1,4 +1,5 @@
 <nav class="navbar navbar-default navbar-fixed-top">
+
 	<div class="container">
 		<div class="navbar-header">
 			<div id="navbar">
@@ -55,7 +56,7 @@
 						<a class="" href="polling-stations.php">Polling Stations</a>
 					</li>
 					<li>
-						<a class="" href="javascript:;">Candidates</a>
+						<a class="" href="candidates.php">Candidates</a>
 					</li>
 					<li>
 						<a class="" href="issues.php">Issues</a>
@@ -64,6 +65,7 @@
 						<a class="" href="index.php">logout</a>
 					</li>
 				</ul>
+
 			</div>
 		</div>
 	</div>

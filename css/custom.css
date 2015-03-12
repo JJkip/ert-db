@@ -349,7 +349,7 @@ input.gn-search:focus {
 .top-clearfix{
 	height: 75px;
 }
-/* Users */
+/* Users, Polling Stations, Candidates */
 .portlet.box.users-table {
 border: 1px solid #008753;
 border-top: 0;
@@ -420,10 +420,22 @@ padding: 10px 0;
 font-family: "Open Sans", sans-serif;
 }
 
-.new-polling-station,.new-user {
+
+.add-polling-station,.new-user, .new-candidate {
 float: right;
 display: inline-block;
 padding: 12px 0 8px 0;
+}
+
+.portlet.box > .portlet-body {
+background-color: #FFF;
+padding: 10px;
+}
+
+.portlet {
+margin-top: 0px;
+margin-bottom: 25px;
+padding: 0px;
 }
 
 /* Statistic Block */

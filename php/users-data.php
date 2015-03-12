@@ -3,7 +3,7 @@
 					
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 						<div class="new-user">
-							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#userModal" data-whatever="@mdo">
+							<button type="button" class="btn btn-success" data-toggle="modal" data-target="#userModal" data-whatever="@mdo">
 								<i class="fa fa-plus"></i>Add User
 							</button>
 						</div>
@@ -87,9 +87,8 @@
 										Fully Reported </span>
 									</td>
 									<td class="hidden-480">
-										 <a href="#" class="btn default btn-xs purple">
-											<i class="fa fa-edit"></i> 
-											Edit 
+										 <a href="users-edit.php" class="btn btn-success" title="Edit">
+											<i class="fa fa-pencil"></i> 
 										</a>
 									</td>
 									
@@ -109,9 +108,8 @@
 										Partially Reported </span>
 									</td>
 									<td class="hidden-480">
-										 <a href="#" class="btn default btn-xs purple">
-											<i class="fa fa-edit"></i> 
-											Edit 
+										 <a href="users-edit.php" class="btn btn-success" title="Edit">
+											<i class="fa fa-pencil"></i> 
 										</a>
 									</td>
 									
@@ -131,9 +129,8 @@
 										Fully Reported </span>
 									</td>
 									<td class="hidden-480">
-										 <a href="#" class="btn default btn-xs purple">
-											<i class="fa fa-edit"></i> 
-											Edit 
+										 <a href="users-edit.php" class="btn btn-success" title="Edit">
+											<i class="fa fa-pencil"></i> 
 										</a>
 									</td>
 									
@@ -153,9 +150,8 @@
 										Not Reported </span>
 									</td>
 									<td class="hidden-480">
-										 <a href="#" class="btn default btn-xs purple">
-											<i class="fa fa-edit"></i> 
-											Edit 
+										 <a href="users-edit.php" class="btn btn-success" title="Edit">
+											<i class="fa fa-pencil"></i> 
 										</a>
 									</td>
 									
