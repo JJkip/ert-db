@@ -25,7 +25,6 @@
 									<li>
 										<a href="help.php" class="gn-icon gn-icon-help">Help</a>
 									</li>
-
 								</ul>
 							</div><!-- /gn-scroller -->
 						</nav>
@@ -52,7 +51,7 @@
 						<a class="" href="users.php">Users</a>
 					</li>
 					<li>
-						<a class="" href="javascript:;">Polling Stations</a>
+						<a class="" href="polling-stations.php">Polling Stations</a>
 					</li>
 					<li>
 						<a class="" href="javascript:;">Candidates</a>
