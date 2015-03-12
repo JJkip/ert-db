@@ -33,18 +33,19 @@
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Results<span class="caret"></span></a>
 						<ul class="dropdown-menu" role="menu">
 							<li>
-								<a href="polling-station-result.php">Polling Station</a>
+								<a href="dashboard.php">Dashboard</a>
 							</li>
+							
 							<li>
 								<a href="candidate-result.php">Candidate</a>
 							</li>
-							<li class="divider"></li>
+							<!--<li class="divider"></li>
 							<li class="dropdown-header">
 								<b>Summary</b>
 							</li>
 							<li>
-								<a href="landing-page.php">All Results</a>
-							</li>
+								<a href="polling-station-result.php">Polling Station</a>
+							</li>-->
 						</ul>
 					</li>
 					<li>

@@ -48,7 +48,7 @@
 								<th> GODSON MGBODILE OHAENYEM OKOYE</th>
 								<th> CHIEF (DR.) CHEKWAS OKORIE</th>
 								<th> STATUS</th>
-								<th data-filterable="false" class="text-center hidden-xs hidden-sm sorting_disabled" role="columnheader" rowspan="1" colspan="1" aria-label="ACTIONS" style="width: 112px;">ACTIONS</th>
+								<th data-filterable="false" class="text-center hidden-xs hidden-sm sorting_disabled" role="columnheader" rowspan="1" colspan="1" aria-label="ACTIONS" style="width: 150px;padding: 0px 20px 0px 20px;">ACTIONS</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -72,7 +72,11 @@
 								<td> <span class="label label-warning">
 										Partially Reported </span></td>
 								<td class="text-center">
-									<a  href="#" class="btn btn-xs btn-success" data-placement="top" title="Edit"><i class="fa fa-pencil"></i></a> &nbsp; <a href="#" class="btn btn-xs btn-warning" data-toggle="modal" data-target="#sendReseult" data-placement="top" title="Send"><i class="fa fa-send"></i></a></td>
+									<ul class="list-unstyled list-inline">
+										<li><a  href="#" class="btn btn-xs btn-success" data-placement="top" title="Edit"><i class="fa fa-pencil"></i></a></li>
+										<li><a href="#" class="btn btn-warning" data-toggle="modal" data-target="#sendReseult" data-placement="top" title="Send"><i class="fa fa-send"></i></a></li>
+									</ul>
+                                </td>
 							</tr>
 							<tr>
 								<td> 2 </td>
@@ -92,10 +96,15 @@
 								<td> 0</td>
 								<td> 0</td>	
 								<td> <span class="label label-danger">
-										Not Reported </span></td>
+										Not Reported </span>
+								</td>
 								<td class="text-center">
-									<a  href="#" class="btn btn-xs btn-success" data-placement="top" title="Edit"><i class="fa fa-pencil"></i></a> &nbsp; <a href="#" class="btn btn-xs btn-warning" data-toggle="modal" data-target="#sendReseult" data-placement="top" title="Send"><i class="fa fa-send"></i></a></td>
-							</tr>
+									<ul class="list-unstyled list-inline">
+										<li><a  href="#" class="btn btn-xs btn-success" data-placement="top" title="Edit"><i class="fa fa-pencil"></i></a></li>
+										<li><a href="#" class="btn btn-warning" data-toggle="modal" data-target="#sendReseult" data-placement="top" title="Send"><i class="fa fa-send"></i></a></li>
+									</ul>
+                                </td>
+								</tr>
 							<tr>
 								<td> 3 </td>
 								<td> AB101003</td>
@@ -114,10 +123,15 @@
 								<td> 589,204</td>
 								<td> 1,000,700</td>	
 								<td> <span class="label label-success">
-										Fully Reported </span></td>
+										Fully Reported </span>
+								</td>
 								<td class="text-center">
-									<a  href="#" class="btn btn-xs btn-success" data-placement="top" title="Edit"><i class="fa fa-pencil"></i></a> &nbsp; <a href="#" class="btn btn-xs btn-warning" data-toggle="modal" data-target="#sendReseult" data-placement="top" title="Send"><i class="fa fa-send"></i></a></td>
-							</tr>
+									<ul class="list-unstyled list-inline">
+										<li><a  href="#" class="btn btn-xs btn-success" data-placement="top" title="Edit"><i class="fa fa-pencil"></i></a></li>
+										<li><a href="#" class="btn btn-warning" data-toggle="modal" data-target="#sendReseult" data-placement="top" title="Send"><i class="fa fa-send"></i></a></li>
+									</ul>
+                                </td>
+								</tr>
 						</tbody>
 					</table>
 				</div>
