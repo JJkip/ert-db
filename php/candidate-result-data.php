@@ -4,11 +4,8 @@
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 			<div class="add-polling-station">
 				<button  type="button" class="btn btn-success pull-right" data-toggle="modal" data-target="#addPollingStationResult" data-whatever="@mdo">
-				<i class="fa fa-plus"></i>Add Polling Station Result
+				<i class="fa fa-plus"></i>&nbsp;Add polling station result
 				</button>
-			<p>
-				&nbsp
-			</p>
 			</div>
 		</div>
 	</div>

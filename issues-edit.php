@@ -14,12 +14,12 @@
 		<link rel="stylesheet" type="text/css" href="css/custom.css" />
 		<script src="js/modernizr.custom.js"></script>
 	</head>
-	
+	<body id="issues">
 	<?php include "php/menu.php"; ?>
 
 	<div class="top-clearfix"></div>
 	
-	<?php include "php/polling-station-data.php"; ?>
+	<?php include "php/issues-data-edit.php"; ?>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
