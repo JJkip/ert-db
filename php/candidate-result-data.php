@@ -144,7 +144,7 @@
 
 						      </div>
 						      <div class="modal-body">
-						        <p> Send result for <b>AB101001</b> ward</p>
+						        <p> Send result for selected polling station?</p>
 						      </div>
 						      <div class="modal-footer">
 						        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>

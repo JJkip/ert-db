@@ -62,7 +62,7 @@
 										Fully Reported </span>
 										 </td>
 								<td class="text-center">
-									<a  href="polling-stations-edit.php" class="btn btn-xs btn-success" data-placement="top" title="Edit"><i class="fa fa-pencil"></i></a> &nbsp; <a href="#" class="btn  btn-warning" data-toggle="modal" data-target="#sendReseult" data-placement="top" title="Send"><i class="fa fa-send"></i></a></td>
+									<a  href="polling-stations-edit.php" class="btn btn-xs btn-success" data-placement="top" title="Edit"><i class="fa fa-pencil"></i></a> &nbsp; <a href="#" class="btn  btn-warning" data-toggle="modal" data-target="#sendResult" data-placement="top" title="Send"><i class="fa fa-send"></i></a></td>
 							</tr>
 						</tbody>
 					</table>
@@ -118,10 +118,6 @@
 						            <label for="recipient-name" class="control-label">Total Votes Sent:</label>
 						            <input type="text" class="form-control" id="recipient-name">
 						          </div>
-						          <div class="form-group">
-						            <label for="recipient-name" class="control-label">Status:</label>
-						            <input type="text" class="form-control" id="recipient-name">
-						          </div>
 						        </form>
 						      </div>
 						      <div class="modal-footer">
@@ -132,6 +128,25 @@
 						  </div>
 						</div>
 						<!-- End Modal -->
+						<!-- Send polling station result Notice Modal begins here -->
+						<div class="modal fade" id="sendResult" tabindex="-1" role="dialog" aria-labelledby="sendResult" aria-hidden="true">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						        <h4 class="modal-title" id="sendResult">Send Result</h4>
+						      </div>
+						      <div class="modal-body">
+						        <p>The selected polling station result will be sent</p>
+						      </div>
+						      <div class="modal-footer">
+						        <a  class="btn btn-default" data-dismiss="modal">Cancel</a>
+						        <a href="polling-stations.php" class="btn btn-success"><i class="fa fa-check"></i> Delete</a>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+				<!-- Delete issue Notice Modal ends here -->
 						
 			<!-- END BORDERED TABLE PORTLET-->
 		</div>
