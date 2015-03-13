@@ -14,6 +14,7 @@
 		<link rel="stylesheet" type="text/css" href="css/custom.css" />
 		<script src="js/modernizr.custom.js"></script>
 	</head>
+	<body id="users-edit">
 
 	<?php include "php/menu.php"; ?>
 
