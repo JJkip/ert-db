@@ -14,12 +14,12 @@
 		<link rel="stylesheet" type="text/css" href="css/custom.css" />
 		<script src="js/modernizr.custom.js"></script>
 	</head>
-
+	<body id="candidate-result-edit">
 	<?php include "php/menu.php"; ?>
 
 	<div class="top-clearfix"></div>
 	
-	<?php include "php/landing-page-data.php"; ?>
+	<?php include "php/candidate-result-data-edit.php"; ?>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>

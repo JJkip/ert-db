@@ -529,7 +529,7 @@ line-height: 35px;
   letter-spacing: 0px;
   font-weight: 300;
 }
-.add-polling-station{
+.add-polling-station,.back-to-candidate-result{
 	padding-bottom: 10px;
 }
 .dropdown-header {
@@ -539,4 +539,10 @@ line-height: 35px;
   line-height: 1.42857143;
   color: #008753;
   white-space: nowrap;
+}
+.edit-candidate-form{
+	padding:10px;
+}
+.modal-dialog.add-polling-result-modal {
+  width: 80%;
 }

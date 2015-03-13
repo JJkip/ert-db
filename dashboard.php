@@ -14,7 +14,7 @@
 		<link rel="stylesheet" type="text/css" href="css/custom.css" />
 		<script src="js/modernizr.custom.js"></script>
 	</head>
-
+	<body id="dashboard">
 	<?php include "php/menu.php"; ?>
 
 	<div class="top-clearfix"></div>
