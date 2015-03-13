@@ -88,8 +88,8 @@
 						<button type="button" class="btn btn-default" data-dismiss="modal">
 							Cancel
 						</button>
-						<button type="submit" class="btn btn-primary">
-							Submit
+						<button type="submit" class="btn btn-success">
+							<i class="fa fa-check"></i> Submit
 						</button>
 					</div>
 				</form>

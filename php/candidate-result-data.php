@@ -168,6 +168,15 @@
 						      </div>
 						      <div class="modal-body">
 						        <form action="candidate-result.php" class="edit-candidate-form">
+						        	<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="polling-station" class="control-label">UNIQUE WARD CODE</label>
+								<input type="text" class="form-control" id="polling-station">
+							</div>
+						</div>
+					</div>
+					<hr />
 					<div class="row">
 						<div class="col-md-4">
 							<div class="form-group">
@@ -237,8 +246,8 @@
 						<button type="button" class="btn btn-default" data-dismiss="modal">
 							Cancel
 						</button>
-						<button type="submit" class="btn btn-primary">
-							Add
+						<button type="submit" class="btn btn-success">
+							<i class="fa fa-plus"></i> Add
 						</button>
 					</div>
 				</form>
